@@ -5,13 +5,13 @@
 - Example user input
 
 ## Steps to build
-chmod +x main.py
+```$chmod +x main.py```
 
-sudo docker build -t opencv-test .
+```$sudo docker build -t opencv-test .```
 
 
 ## How to run
 
-sudo docker run -it --rm  opencv-test [name]
+```$sudo docker run -it --rm  opencv-test [name]```
 
-example: sudo docker run -it --rm  opencv-test Gihan
+example: ```$sudo docker run -it --rm  opencv-test Gihan```
